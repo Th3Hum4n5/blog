@@ -1,18 +1,18 @@
 # Site settings
-title: A blog about lorem ipsum dolor sit amet
-description: A blog about lorem ipsum dolor sit amet
+title: The blog about th3hum4n5 team experience
+description: The blog about th3hum4n5 team experience
 baseurl: "/blog" # the subpath of your site, e.g. /blog
-url: "https://willianjusten.com.br" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+url: "https://th3hum4n5.github.io" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
-username: Lorem Ipsum
-user_description: Anon Developer at Lorem Ipsum Dolor
+username: Th3 Hum4n5
+user_description: Th3 Hum4n5 team members
 user_title: Anon Developer
-email: anon@anon.com
-twitter_username: lorem_ipsum
-github_username:  lorem_ipsum
-gplus_username:  lorem_ipsum
-disqus_username: lorem_ipsum
+email: 68756d616e73@gmail.com
+twitter_username: /th3hum4n5
+github_username:  /th3hum4n5
+gplus_username:   #
+disqus_username: https-th3hum4n5-github-io
 
 # Build settings
 markdown: kramdown
