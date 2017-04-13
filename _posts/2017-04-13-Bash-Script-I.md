@@ -14,22 +14,22 @@ twitter_text: 'I am learning Bash Script Language'
 Bash Script Nedir?
 ------------------
 
-Bash programlama, terminal üzerinde yazdığımız komutların, bir dosya içerisine kaydedip toplu bir şekilde çalıştırılmasını sağlar.Yazdığımız bu scriptler derlenerek çalıştırılmaz yani yazdığımız komutlar yorumlanarak çalıştırılır.Yazdığımız komutları .sh olarak kaydediyoruz.
+Bash programlama, terminal üzerinde yazdıgımız komutların, bir dosya içerisine kaydedip toplu bir sekilde çalıstırılmasını saglar.Yazdıgımız bu scriptler derlenerek çalıstırılmaz yani yazdıgımız komutlar yorumlanarak çalıstırılır.Yazdıgımız komutları .sh olarak kaydediyoruz.
 
-Bash Script Nasıl Çalıştırılır?
+Bash Script Nasıl Çalıstırılır?
 -------------------------------
 
 
-Bash dosyasını çalıştırmak oldukça basittir.Ancak dosyayı çalıştırmadan önce izin verilmesi gerekir.Eğer izin vermeden çalıştırmaya çalışırsak hata verecektir.
+Bash dosyasını çalıstırmak oldukça basittir.Ancak dosyayı çalıstırmadan önce izin verilmesi gerekir.Eger izin vermeden çalıstırmaya çalısırsak hata verecektir.
 
 > 755 komutu scriptler için sıklıkla kullanılan,scriptlere yazma ve
-> değiştirme izni veren bir komuttur.
+> degistirme izni veren bir komuttur.
 
 {% highlight bash %}
 ./script.sh
 {% endhighlight %}
 
-İlk Uygulama
+Ilk Uygulama
 ------------
 **Script.sh**
 
@@ -42,19 +42,19 @@ echo "Hello World!"
 
 
 **Satır 1:** Bu komutta linux da bulunan bash’in yolunu gösterir.
-**Satır 2:** ‘#’ işareti yorum satırı oluşturur.Bundan sonra yazdığımız komutlar çıktı olarak gözükmez.
-**Satır 3:** Echo komutu ekrana yazı yazdırmamızı sağlar.Terminal de denediğimiz zaman yine aynı çıktıyı alırız.
+**Satır 2:** ‘#’ isareti yorum satırı olusturur.Bundan sonra yazdıgımız komutlar çıktı olarak gözükmez.
+**Satır 3:** Echo komutu ekrana yazı yazdırmamızı saglar.Terminal de denedigimiz zaman yine aynı çıktıyı alırız.
 
 **Neden ./ **
 
-Terminal de ls veya echo gibi komutları çalıştırırken adını yazdığımızda direk olarak çalışır.Ama biz scriptleri çalıştıracağımız zaman başına ./ ekleriz.Bunun nedeni bash bir komutu çalıştıracağı zaman $PATH yolunda arar.Eğer orada yoksa çalıştırmaz.Biz bu yolları terminal echo yazarak görebiliriz.
+Terminal de ls veya echo gibi komutları çalıstırırken adını yazdıgımızda direk olarak çalısır.Ama biz scriptleri çalıstıracagımız zaman basına ./ ekleriz.Bunun nedeni bash bir komutu çalıstıracagı zaman $PATH yolunda arar.Eger orada yoksa çalıstırmaz.Biz bu yolları terminal echo yazarak görebiliriz.
 
 <p><img src="{{ site.url }}/assets/img/path.png" alt="{{ page.title }}"></p>
 
-Gördüğünüz gibi echo komutuyla yollarımızı görmüş olduk.Bu yollar birbirinden “:” ile ayrılır.Peki biz scriptimizi ./ kullanmadan nasıl çalıştırabiliriz.
+Gördügünüz gibi echo komutuyla yollarımızı görmüs olduk.Bu yollar birbirinden “:” ile ayrılır.Peki biz scriptimizi ./ kullanmadan nasıl çalıstırabiliriz.
 
 <p><img src="{{ site.url }}/assets/img/usr.png" alt="{{ page.title }}"></p>
 
-Scriptimizi $PATH içinde bulunan klasörlerden birine attığımız zaman ./ kullanmadan scriptimizi çalıştırmış olduk.
+Scriptimizi $PATH içinde bulunan klasörlerden birine attıgımız zaman ./ kullanmadan scriptimizi çalıstırmıs olduk.
 
-Okuduğunuz için teşekkürler.
+Okudugunuz için tesekkürler.
