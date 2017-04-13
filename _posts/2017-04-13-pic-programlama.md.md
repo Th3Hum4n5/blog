@@ -9,7 +9,7 @@ tags:
 - microc
 categories:
 - PIC Programlama
-twitter_text: 'How to install and use this template'
+twitter_text: 'I am learning PIC Programming'
 ---
 
 Merhaba arkadaslar,
@@ -54,6 +54,13 @@ Tam olarak ne oldugunu tarif edememekle birlikte PIC imizi devreden sökmeden pr
 
    Mikroborn uygulaması ile PIC imize programı nasıl atacagımıza gelirsek eger öncelikle program açıldıgında ve “K150 Connected” yazısını gördügümüzde sag tarafta PIC imizi seçiyoruz. Zaten uygulama görselinde bize hangi PIC i kullanırsak kullanalım (10F ve 18F serisi içerisinde) nasıl baglanacagını gösteriyor.
 
-    Ilk olarak “Blank” diyoruz ve oradan “Erase Chip” butonuna tıklayıp “OK” diyoruz. Bu islem ardından PIC imizin içi temizleniyor ve ardından “Load” butonuna tıklayıp MikroC ile yazıp derlendiginde bize hex çıktısının kayıtlı oldugu yeri bulup seçiyoruz ve ardından “Fuses” kısmına tıklıyoruz ilk gelen alert ekranında “yes” butonunu seçerek “Fuses” ayarlarını MikroC de ayarladıgımız gibi otomatik olarak algılamasını istiyoruz sonrasında çıkan ekranı kapatıp “Program” butonuna tıklıyoruz. Eger “Bad ve Good” içeren bi hata mesajı alırsak Fuses (sigorta) ayarlarını yanlıs ayarlamısız demektir. Buna ayrıntılı bi sekilde deginecegiz ileride. simdilik bu kadar. Ilk kez böyle bi yazı yazdıgım için çok amatörce olabilir zamanla eksik taslar ve anlatımım yerine oturacaktır.
+    Ilk olarak “Blank” diyoruz ve oradan “Erase Chip” butonuna tıklayıp “OK” diyoruz.
+    Bu islem ardından PIC imizin içi temizleniyor.
+    Ardından “Load” butonuna tıklayıp MikroC ile yazıp derlendiginde bize hex çıktısının kayıtlı oldugu yeri bulup seçiyoruz.
+    Ardından “Fuses” kısmına tıklıyoruz ilk gelen alert ekranında “yes” butonunu seçerek “Fuses” ayarlarını MikroC de ayarladıgımız gibi otomatik olarak algılamasını istiyoruz.
+    Sonrasında çıkan ekranı kapatıp “Program” butonuna tıklıyoruz.
+    Eger “Bad ve Good” içeren bi hata mesajı alırsak Fuses (sigorta) ayarlarını yanlıs ayarlamısız demektir.
+    Buna ayrıntılı bi sekilde deginecegiz ileride.
 
-Okudugunuz için tesekkür ederim.
+
+Ilk kez böyle bi yazı yazdıgım için çok amatörce olabilir zamanla eksik taslar ve anlatımım yerine oturacaktır.Okudugunuz için tesekkür ederim.
