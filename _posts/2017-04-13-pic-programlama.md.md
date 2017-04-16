@@ -48,7 +48,7 @@ Bunun içinde “http://www.prolific.com.tw/US/ShowProduct.aspx?p_id=225&pcid=41
 {% highlight bash %}
 Sizlere tavsiye ettigim “mikroborn.exe” uygulaması denedigim tüm PIC programlama kartlarında ise yaradıgını ve çokta stabil çalısan bi programlama uygulaması oldugunu gördüm.
 Tabi gönül isterki PICkit alalım ama maliyet el vermiyor.
-
+{% endhighlight %}
 
 PIC programlamanın bir avantajı da ICSP ile programlamaktır.  
 Tam olarak ne oldugunu tarif edememekle birlikte PIC imizi devreden sökmeden programlama kartımızın arkasında isimleri yazan “PGC, PGD, GND, VDD ve VPP” çıkıslarını PIC imizin (16F877A ve 18F4550) sırasıyla PGC = 39. PGD = 40. GND = 12. ve 31. VDD = 11. ve 32. VPP = 1. bacaklarına baglıyoruz ve programlayıcı uygulamızla programımızı PIC imizin içine atıyoruz.
