@@ -41,6 +41,3 @@ links:
 
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
-
-gems:
-	-octopress-multilingual
